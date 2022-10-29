@@ -1,0 +1,58 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+.pager__item {
+  color: #e3402b;
+}
+
+/* bootstrap form customization */
+.form-check-input {
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input:checked {
+  background-color: #f15a46;
+  border-color: #f15a46;
+  outline: none;
+  box-shadow: none;
+}
+.form-check-input::after {
+  box-shadow: none;
+}
+.form-check-input::before {
+  box-shadow: none;
+}
+
+.form-select {
+  border: 0.79058px solid #707070;
+  border-radius: 7.9058px;
+  box-shadow: none;
+  outline: 0 none;
+  padding: 6px 7px;
+}
+.form-select:focus {
+  border: 0.79058px solid #707070;
+  border-radius: 7.9058px;
+  box-shadow: none;
+  outline: 0 none;
+}
+.form-control {
+  border: 0.79058px solid #707070;
+  border-radius: 7.9058px;
+  box-shadow: none;
+  outline: 0 none;
+  padding: 10px 7px;
+}
+.form-control:focus {
+  border: 0.79058px solid #707070;
+  border-radius: 7.9058px;
+  box-shadow: none;
+  outline: 0 none;
+}
+
+/* new */
